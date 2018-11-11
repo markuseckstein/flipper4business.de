@@ -1,68 +1,675 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="de">
 
 <head>
+  <meta charset="utf-8">
+  <title>flipper4business - Flipper einfach mieten</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Flipper, Geschäftsräume, Büro, Spaß im Büro, Kicker für Büro, Mitarbeiterzufriedenheit" name="keywords">
+  <meta content="Bei flipper4business können Sie Flipperautomaten für Ihre Geschäftsräume mieten." name="description">
 
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <title>Flipper 4 business</title>
-  <meta name="robots" content="follow" />
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="normalize.css" />
-  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Nivo Slider Theme -->
+  <link href="css/nivo-slider-theme.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive Stylesheet File -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: eBusiness
+    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-example">
 
-  <div class="scroll-wrapper">
-    <header class="box" id="header">
-      <h1>Flipper4business</h1>
-      <p>Wir freuen uns, dass Sie den Weg auf unsere Homepage gefunden haben.
-        Hier finden Sie einige Einblicke in unser Portfolio und wir freuen uns Ihnen die Möglichkeit bieten zu können
-        Ihre Geschäftsräume für Ihre Mitarbeiter/innen und/oder Kunden „AusgeFlippter“ zu gestalten.
-        Der SPIELSPASS ist bei uns stets großgeschrieben</p>
-    </header>
-    <main id="main">
-      <section class="box">
-        <h2>
-          Möchten Sie bei Ihrem Event etwas Ausgefallenes haben?</h2>
-        <p>
-          Auch hier sind wir der Richtige Ansprechpartner für das gewisse Etwas.
-          Wir bitten um Ihr Verständnis, das wir auf unserer Homepage nur Auszüge unserer Möglichkeiten präsentieren
-          können.
-        </p>
-      </section>
-      <section class="box">
-        <h2>Sehr individuelle Wünsche?</h2>
-        <p>
-          Wir helfen bei einer Realisierung.
-          Sprechen Sie uns an, wir freuen uns auf Sie</p>
-      </section>
-    </main>
+  <div id="preloader"></div>
 
+  <header>
+    <!-- header-area start -->
+    <div id="sticker" class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
 
-    <!-- Footer -->
-    <footer id="footer">
-      <section class="box">
-        <h3>Kontaktdaten</h3>
-        Flipper4business a Division of<br>
-        Michl&Flo UG (haftungsbeschränkt)<br>
-        in Gründung<br>
-        Lindenstrasse 11<br>
-        90562 Kalchreuth<br>
-        Tel.<a href="tel:+49-911-9320971">0911/9320971</a><br>
-        E-Mail:<a href="mailto:vertrieb@flipper4business.de">vertrieb@flipper4business.de</a><br>
-      </section>
-      <section class="box">
-        <h3>Impressum in Gründung</h3>
-        Geschäftsführer<br>
-        Florian Greischel<br>
-        HRB in Gründung<br>
-        Gerichtssitz in Gründung<br>
-        Sitz: in Gründung<br>
-      </section>
-    </footer>
+            <!-- Navigation -->
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1"
+                  aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <!-- Brand -->
+                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+
+                  <!-- Uncomment below if you prefer to use an image logo -->
+                  <img style="height: 50px" src="img/logo_small_white.png" alt="Flipper4business Logo" title="">
+                </a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a class="page-scroll" href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#about">Über uns</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#flipper">Flipper</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#references">Referenzen</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#contact">Kontakt</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- navbar-collapse -->
+            </nav>
+            <!-- END: Navigation -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-area end -->
+  </header>
+  <!-- header end -->
+
+  <!-- Start Slider Area -->
+  <div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
+        <img src="img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
+        <img src="img/slider/slider3.jpg" alt="" title="#slider-direction-3" />
+      </div>
+
+      <!-- direction 1 -->
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">Hier könnte dein toller Text stehen </h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">flipper4business ist top, weil...</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#team">Team</a>
+                  <a class="ready-btn page-scroll" href="#contact">Kontakt</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 2 -->
+      <div id="slider-direction-2" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content text-center">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">SPIELSPASS großgeschrieben</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Supertoll, bla bla...</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#flipper">Unsere Flipper</a>
+                  <a class="ready-btn page-scroll" href="#contact">Kontakt</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 3 -->
+      <div id="slider-direction-3" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">noch ein Infoheader</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Super Information</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn page-scroll" href="#contact">Kontakt</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- End Slider Area -->
+
+  <!-- Start About area -->
+  <div id="about" class="about-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Über flipper4business</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+        <!-- single-well end-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-middle">
+            <div class="single-well">
+              <a href="#">
+                <h4 class="sec-head">Der SPIELSPASS ist bei uns stets großgeschrieben</h4>
+              </a>
+              <p>
+                Möchten Sie bei Ihrem Event etwas Ausgefallenes haben?
+                Auch hier sind wir der Richtige Ansprechpartner für das gewisse Etwas.</p>
+
+              <p>
+                Sehr individuelle Wünsche? Wir helfen bei einer Realisierung.
+
+                Sprechen Sie uns an, wir freuen uns auf Sie
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <!-- End col-->
+      </div>
+    </div>
+  </div>
+  <!-- End About area -->
+
+
+
+  <!-- Start team Area -->
+  <div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Unser Team</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="team-top">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+                  <img src="img/team/flo.jpg" alt="">
+                </a>
+
+              </div>
+              <div class="team-content text-center">
+                <h4>Florian Greischel</h4>
+                <p>Vertrieb</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+                  <img src="img/team/michi.jpg" alt="">
+                </a>
+              </div>
+              <div class="team-content text-center">
+                <h4>Michael </h4>
+                <p>Schrauber</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- End column -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Team Area -->
+
+
+  <!-- Start portfolio Area -->
+  <div id="flipper" class="portfolio-area area-padding fix">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Unsere Flipper</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Start Portfolio -page -->
+
+        <div class="awesome-project-content">
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/flipper01.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/flipper01.jpg">
+                      <h4>Bally Truck Stop</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/flipper02.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/flipper02.jpg">
+                      <h4>Bally Truck Stop</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/flipper03.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/flipper03.jpg">
+                      <h4>Data East Simpsons</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/flipper04.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/flipper04.jpg">
+                      <h4>Data East Simpsons</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/flipper05.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/flipper05.jpg">
+                      <h4>Gottlieb Teed</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/flipper06.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/flipper06.jpg">
+                      <h4>Gottlieb Teed</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/flipper07.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/flipper07.jpg">
+                      <h4>Williams Black Knight</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/flipper08.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/flipper08.jpg">
+                      <h4>Williams Black Knight</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/flipper09.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/flipper09.jpg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+
+
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/flipper10.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/flipper10.jpg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- awesome-portfolio end -->
+
+
+
+  <!-- Start references area -->
+
+  <div id="references" class="references-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Referenzen</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <img src="img/referenzen/stf.png">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!-- End references area -->
+
+  <!-- Start contact Area -->
+  <div id="contact" class="contact-area">
+    <div class="contact-inner area-padding">
+      <div class="contact-overly"></div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>Kontaktieren Sie uns</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Start contact icon column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-mobile"></i>
+                <p>
+                  Tel: <a href="tel:09119320971">0911 / 93 20 97 1</a><br>
+                  <!-- <span>Monday-Friday (9am-5pm)</span> -->
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Start contact icon column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-envelope-o"></i>
+                <p>
+                  Email: <a href="mailto:vertrieb@flipper4business.de">vertrieb@flipper4business.de</a><br>
+                  <span>Web: www.flipper4business.de</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Start contact icon column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-map-marker"></i>
+                <p>
+                  Adresse: Lindenstraße 11<br>
+                  <span>90562 Kalchreuth</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End Contact Area -->
+
+  <!-- Start Footer bottom Area -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2>flipper<span>4</span>&shy;business</h2>
+                </div>
+
+                <p>
+
+                  Flipper4business a Division of<br>
+                  Michl & Flo UG (haftungsbeschränkt)<br>
+                  in Gründung<br>
+                  Lindenstrasse 11<br>
+                  90562 Kalchreuth<br>
+                  Tel: <a href="tel:09119320971">0911 / 93 20 97 1</a><br>
+                  E-Mail: <a href="mailto:vertrieb@flipper4business.de">vertrieb@flipper4business.de</a>
+                </p>
+                <!-- <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-google"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </li>
+                  </ul>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Impressum</h4>
+                <p>
+
+                  Impressum in Gründung:<br><br>
+
+                  Geschäftsführer<br>
+
+                  Florian Greischel<br>
+
+                  HRB in Gründung<br>
+
+                  Gerichtssitz in Gründung<br>
+
+                  Sitz: in Gründung
+
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <p>
+                  <img src="img/logo.png">
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>flipper4business</strong>. <a href="datenschutz.html">Informationen zum
+                  Datenschutz</a>
+              </p>
+            </div>
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
+              -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/knob/jquery.knob.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script src="lib/appear/jquery.appear.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>
